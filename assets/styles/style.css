@@ -1,3 +1,21 @@
+body{
+    display:flex;
+    flex-direction: column;
+    gap:88px
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
 .header__logo-wrapper_img {
     width: 25px;
     height: 36.23px;
@@ -7,5 +25,88 @@
 .header__about {
     width: 46;
     height: 19;
-    position: absolute;
+
+}
+
+.headers2 {
+    display: flex;
+    gap: 30px;
+}
+
+.LaslesVPN {
+    width: 103px;
+    height: 24px;
+    top: 56.12px;
+    left: 202px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.7px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+
+.headers2__text {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+.zhenshina{
+    display: flex;
+    justify-content: space-between;
+}
+.zhenshinasvg{
+    width: 611.24px;
+    height: 382.44px;
+    top: 179.11px;
+    left: 745.76px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.header__buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.header__button2{
+    border: 1px solid red;
+    border-radius: 30px;
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+
+.header__button1{
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
